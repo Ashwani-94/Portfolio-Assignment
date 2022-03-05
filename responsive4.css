@@ -1,0 +1,111 @@
+.bg img{
+    display: none;
+}
+.logo {
+    margin: 7px 16px;
+}
+#navbar ul li a {
+    padding: 3px 17px;
+}
+#home p, #home h1 {
+    width: 289px;
+}
+#home p {
+    font-size: 0.9rem;
+}
+#footer{
+    flex-direction: column;
+}
+#handle {
+    width: 288px;
+}
+#home {
+    padding: 3px 100px;
+}
+.h-primary {
+    font-size: 1.3rem;
+}
+#about-1 {
+    height: 86px;
+}
+.about-item {
+    font-size: 0.8rem;
+}
+#about-2-1 div img {
+    height: 54px;
+}
+.h-secondary {
+    font-size: 1.3rem;
+}
+#about-2 > div {
+    padding: 5px;
+}
+#about-2-1{
+    width: 274px;
+    height: 232px;
+}
+#about-2-1:hover{
+    width: 284px;
+    height: 242px;
+}
+#about-2-2{
+    width: 274px;
+    height: 248px;
+}
+#about-2-2:hover{
+    width: 284px;
+    height: 258px;
+}
+#about-2-3, #about-2-4{
+    width: 274px;
+    height: 200px;
+}
+#about-2-3:hover, #about-2-4:hover{
+    width: 284px;
+    height: 210px;
+}
+#about-2 > div p{
+    font-size: 0.9rem;
+}
+#about-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#about-2 {
+    margin-top: 290px;
+}
+#contact {
+    margin-top: 819px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.contact-item {
+    margin: auto;
+}
+.contact-item h1 {
+    font-size: 1.3rem;
+}
+.contact-item form {
+    grid-gap: 0.5rem;
+}
+.contact-item {
+    height: 402px;
+}
+#address {
+    margin: auto;
+    text-align: center;
+    padding-left: 0px;
+    border-left: none;
+    border-bottom: 5px solid red;
+}
+#handle::before {
+    height: 533px;
+}
+#handle{
+    margin: auto;
+    border-left: none;
+    border-bottom: 5px solid red;    
+}
+#end{
+    font-size: 0.8rem;
+}

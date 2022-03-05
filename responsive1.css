@@ -1,0 +1,32 @@
+#home{
+    justify-content: flex-start;
+}
+#about-2{
+    margin-top: 390px;
+}
+#about-2-1, #about-2-2, #about-2-3, #about-2-4{
+    height: 443px;
+}
+#about-2-1:hover, #about-2-2:hover, #about-2-3:hover, #about-2-4:hover{
+    height: 457px;
+    width: 25%;
+}
+#contact{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.contact-item{
+    margin-left:23px ;
+    margin-right:23px ;
+    padding-left:20px ;
+    padding-right: 20px; ;
+}
+#footer{
+    margin-top: 14px
+}
+#handle::before{
+    height: 517px;
+}
+#handle{
+    grid-gap: 0rem;
+}

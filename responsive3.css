@@ -1,0 +1,92 @@
+#navbar{
+    flex-direction: column;
+}
+.logo img {
+    height: 50px;
+}
+#home p, #home h1 {
+    width: 490px;
+}
+.h-primary {
+    font-size: 2rem;
+}
+#home p{
+    font-size: 1.1rem;
+}
+about-item {
+    font-size: 0.9rem;
+}
+#about-1{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#about-2 {
+    margin-top: 170px;
+}
+.about-2-item{
+    padding-top:5px ;
+}
+@media only screen and (min-width:744px ) and (max-width:855px){
+    #about-2-3{
+        height: 411px !important;
+    }
+    #about-2-3:hover{
+        height: 421px;
+        width: 175px;
+    }
+}
+#about-2-1, #about-2-2 {
+    width: 165px;
+    height: 411px;
+}
+#about-2-1:hover, #about-2-2:hover {
+    width: 175px;
+    height: 421px;
+}
+#about-2-3, #about-2-4{
+    width: 165px;
+    height: 322px;
+}
+#about-2-3:hover, #about-2-4:hover{
+    width: 175px;
+    height: 332px;
+}
+#contact .bg img {
+    height: 150px;
+    margin: 0px 8px;
+}
+#contact {
+    margin-top: 690px;
+}
+.contact-item {
+    width: 415px;
+    margin-left: 7px;
+    height: 457px;
+}
+.contact-item form{
+    grid-gap: 1rem;
+}
+#contact .bg::before {
+    height: 990px;
+}
+#handle::before {
+    top: 2105px;
+}
+#footer {
+    margin-top: 5px;
+}
+#handle::before {
+    height: 531px;
+}
+#handle h1, #address h1 {
+    font-size: 1.3rem;
+}
+#handle p, #address h2{
+    font-size: 1rem;
+}
+#handle {
+    width: 406px;
+}
+#address {
+    padding-left: 9px;
+}

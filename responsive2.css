@@ -1,0 +1,91 @@
+#navbar ul{
+    margin-left: 0px;
+}
+#home p, #home h1{
+    width: 700px;
+}
+.about-item{
+    font-size: 1.1rem;
+}
+#logo-2 img{
+    height: 240px;
+}
+@keyframes start{
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: 240px;
+    }
+}
+#about-2 {
+    margin-top: 112px;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+#about-2-3, #about-2-4{
+    height: 200px;
+    width: 310px;
+}
+#about-2-1{
+    height: 254px ;
+    width: 310px;
+}
+#about-2-2{
+    height: 254px ;
+    width: 310px;
+}
+#about-2-1 div img{
+    height: 70px;
+}#about-2-2 div img{
+    height: 70px;
+}
+#about-2-3 div img{
+    height: 70px;
+}
+#about-2-4 div img{
+    height: 70px;
+}
+#about-2-1:hover, #about-2-2:hover{
+    height: 264px;
+    width: 320px;
+}
+#about-2-3:hover, #about-2-4:hover{
+    height: 210px;
+    width: 320px;
+}
+.h-secondary{
+    font-size: 1.5rem;
+}
+#contact{
+    margin-top: 446px;
+}
+.contact-item {
+    margin-left: -33px;
+    margin-right: 20px;
+    padding-left: 15px;
+}
+.contact-item h1 {
+    font-size: 2rem;
+}
+#footer {
+    margin-top: 74px;
+}
+#address {
+    padding-left: 30px;
+}
+#address h1{
+    font-size: 2rem;
+}
+#address h2{
+    font-size: 1.2rem;
+}
+#handle{
+    padding-right: 0px;
+}
+#handle h1 {
+    font-size: 2rem;
+}
+#handle p {
+    font-size: 1.2rem;
+}

@@ -1,0 +1,423 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+::selection {
+    color: red;
+    background: none;
+  }
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.logo{
+    margin: 7px 45px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Satisfy', cursive;
+}
+#logo_name{
+    text-shadow: 1px 1px 5px rgb(255, 67, 255);
+}
+.logo img{
+    margin: 6px 30px;
+    height: 75px;
+}
+#navbar ul{
+    display: flex;
+    margin-left: 200px;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 3px 40px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    text-shadow: 1px 1px 5px rgb(255, 67, 255);
+    transition: all 0.2s;
+}
+#navbar ul li a:hover{
+    text-shadow: none;
+    background-color: white;
+    color: rgb(68, 19, 80);
+    border: 2px solid rgb(56, 0, 70);
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgb(56, 0, 70);
+}
+#navbar ul li a:active{
+    background-color: rgb(243, 225, 255);
+}
+#navbar::before{
+    content: "";
+    background-color: rgb(68, 19, 80);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 200px;
+    height: 460px;
+}
+#home::before{
+    content: "";
+    background: url(bg1.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.h-primary{
+    color: rgb(253, 252, 182);
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Original Surfer', cursive;
+    text-shadow: 1px 1px 5px yellowgreen;
+}
+#home p{
+    color: rgb(206, 255, 191);
+    color: rgb(255, 254, 203);
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Lobster Two', cursive;
+    text-shadow: 1px 1px 5px yellowgreen;
+}
+/* About-1 Section */
+#about-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 80px;
+    height: 380px;
+}
+#about-1::before{
+    content: "";
+    background: url(bg9.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    height: 660px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.75;
+}
+.about-item{
+    color: yellow;
+    font-family: 'Charmonman', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 1px 1px 5px yellowgreen;
+}
+.about-item span a img{
+    height: 40px;
+    position: relative;
+    top: 11px;
+    left: 6px;
+    z-index: -1;
+}
+.about-item span a img:hover{
+    height: 41px;
+    border: 2px solid yellow;
+    border-radius: 500px;
+}
+#logo-2 img{
+    height: 300px;
+}
+#logo-2 img{
+    position: relative;
+    z-index: -1;
+    animation: start 3s 0.05s 1;
+}
+@keyframes start{
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: 300px;
+    }
+}
+/* About-2 Section */
+.h-secondary{
+    font-size: 2rem;
+    font-family: 'Original Surfer', cursive;
+}
+#about-2{
+    display: flex;
+    margin-top: 331px;
+    margin-left: 25px;
+    margin-right: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-family: 'Alegreya', serif;
+}
+.about-2-item{
+    border: 2px solid brown;
+    padding: 25px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    width: 22%;
+    height: 386px;
+    background-color: rgb(255, 252, 238);
+    transition: all 0.2s;
+    text-align: center;
+    color: rgb(68, 19, 80);
+}
+.about-2-item:hover{
+    height: 400px;
+    width: 24%;
+    background-color: rgb(255, 247, 211);
+    box-shadow: 1px 1px 20px rgb(241, 219, 253);
+}
+#about-2-1 div img{
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+#about-2-2 div img{
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+#about-2-3 div img{
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+#about-2-4 div img{
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+/* Contact */
+#contact{
+    display: flex;
+    margin-top: 185px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#contact .bg::before{
+    content: "";
+    background: url(bg3.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 1140px;
+    left: 0px;
+    height: 850px;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.75;
+}
+#contact .bg img{
+    height: 535px;
+    margin: 0px 40px;
+}
+.contact-item{
+    background:url(bg4.jpg) no-repeat center center/cover ;
+    padding: 12px 22px;
+    margin: 5px 50px;
+    height: 540px;
+    width: 630px;
+    transition: all 0.2s;
+}
+.contact-item:hover{
+    box-shadow: 1px 1px 15px yellowgreen;
+}
+.contact-item form{
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-areas: 
+    'name email'
+    'subject subject'
+    'message message'
+    'button button';
+}
+#form-1{
+    grid-area: name;
+}
+#form-2{
+    grid-area: email;
+}
+#form-3{
+    grid-area: subject;
+}
+#form-4{
+    grid-area: message;
+}
+#form-5{
+    grid-area: button;
+    margin: auto;
+}
+.form-item input{
+    width: 100%;
+    height: 45px;
+    margin: 3px 4px;
+}
+.form-item textarea{
+    width: 100%;
+    height: 150px;
+    margin: 3px 4px;
+}
+.form-item input, .form-item textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+}
+::placeholder{
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Alegreya', serif;
+}
+.contact-item h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-top: 12px;
+    text-align: center;
+    font-family: 'Charmonman', cursive;
+}
+.btn{
+    padding: 2px 4px;
+    margin: -8px 4px;
+    background: none;
+    height: 50px;
+    width: 190px;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    font-family: 'Alegreya', serif;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color: rgb(252, 246, 173);
+    color: rgb(68, 19, 80);
+    text-shadow: 1px 1px 5px yellowgreen;
+}
+.btn:active{
+    background-color: rgb(255, 245, 138);
+}
+/* Footer */
+#footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+}
+#handle::before{
+    content: "";
+    background: url(bg5.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 1970px;
+    left: 0px;
+    height: 476px;
+    width: 100%;
+    z-index: -3;
+    opacity: 0.8;
+}
+#handle ul{
+    display: flex;
+    align-items: center;
+}
+#handle ul li{
+    margin: 3px 8px;
+    list-style: none;
+}
+#handle ul li a img{
+    height: 50px;
+    transition: height 0.3s;
+}
+#handle ul li a img:hover{
+    height: 60px;
+    border: 2px solid yellow;
+    border-radius: 500px;
+    box-shadow: 1px 1px 5px yellowgreen;
+}
+#handle ul li a img:active{
+    border: 2px solid rgb(255, 157, 0);
+}
+#handle{
+    display: grid;
+    color: yellow;
+    font-family: 'Alegreya', serif;
+    width: 800px;
+    margin: 2px 7px;
+    padding: 3px 0px;
+    padding-right: 10px;
+    border-left: 8px solid red;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'heading heading'
+    'handle handle'
+    'para para';
+}
+#handle h1{
+    grid-area: heading;
+    margin: auto;
+    font-size: 2.5rem;
+    color: red;
+}
+#handle h1:hover{
+    text-shadow: 1px 1px 5px yellowgreen;
+}
+#handle p{
+    grid-area: para;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#handle p:hover{
+    color: rgb(255, 157, 0);
+}
+#handle ul{
+    grid-area: handle;
+    margin: auto;
+}
+#address{
+    color: yellow;
+    font-family: 'Alegreya', serif;
+    border-left: 8px solid red;
+    padding-left:63px ;
+}
+#address h1{
+    font-size: 2.5rem;
+    color: red;
+}
+#address h1:hover{
+    text-shadow: 1px 1px 5px yellowgreen;
+}
+#address h2 img{
+    height: 20px;
+}
+#address h2:hover{
+    color: rgb(255, 157, 0);
+}
+/* end */
+#end{
+    color: white;
+    background-color: rgb(68, 19, 80);
+    text-align: center;
+    margin-top: 12px;
+    padding: 2px 4px;
+}
